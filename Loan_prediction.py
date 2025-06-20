@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv(r'C:\Users\Sujitha\OneDrive\Desktop\Ml Intern\train_u6lujuX_CVtuZ9i.csv')
+df = pd.read_csv(r'Ckchandrakanthchandru/loan-prediction/train_u6lujuX_CVtuZ9i.csv')
 
 print(df.head())
 # %%
@@ -138,7 +138,7 @@ for name, model in models_r.items():
 import pandas as pd
 
 # Load the test CSV file
-test_df = pd.read_csv(r"C:\Users\Sujitha\OneDrive\Desktop\Ml Intern\test_Y3wMUE5_7gLdaTN.csv")
+test_df = pd.read_csv(r"Ckchandrakanthchandru/loan-prediction/test_Y3wMUE5_7gLdaTN.csv")
 
 
 # Backup Loan_ID to reattach later
